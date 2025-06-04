@@ -23,13 +23,12 @@ A React application built with Vite, TypeScript, Tailwind CSS, and React Router 
 ## 📚 Available Challenges
 
 ### Easy Level
-- **Challenge 1: Counter App** - Basic state management with useState
+- **Calculator App** - Basic arithmetic operations with state management and input validation
+- **Dice App** - Visual dice rolling with random number generation and interactive UI
 
 ### Medium Level
-- **Challenge 2: Todo List** - Forms, array operations, and filtering
-
-### Hard Level
-- **Challenge 3: Weather App** - API integration, async operations, and error handling
+- **Expense Tracker** - Financial tracking app with income/expense management and state operations
+- **Connect Four** - Classic board game with complex game logic, win detection, and player turns
 
 ## 🎯 Getting Started
 
@@ -69,14 +68,15 @@ npm run dev
 ```
 src/
 ├── components/          # Reusable UI components
-│   └── Layout.tsx      # Main layout with navigation
+│   └── Layout.tsx      # Main layout with navigation and footer
 ├── pages/              # Main pages
 │   ├── Home.tsx        # Landing page with challenge overview
 │   ├── ChallengeList.tsx # List of all challenges
 │   └── challenges/     # Individual challenge pages
-│       ├── Challenge1.tsx
-│       ├── Challenge2.tsx
-│       └── Challenge3.tsx
+│       ├── CalculatorApp.tsx    # Basic calculator with arithmetic operations
+│       ├── DiceApp.tsx          # Interactive dice rolling application
+│       ├── ExpenseApp.tsx       # Expense tracking with financial management
+│       └── ConnectFourApp.tsx   # Classic Connect Four board game
 ├── App.tsx             # Main app component with routing
 ├── main.tsx           # Entry point
 └── index.css          # Global styles with Tailwind
@@ -106,6 +106,4 @@ Feel free to add more challenges or improve existing ones! Follow the establishe
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-  },
-})
-```
+
