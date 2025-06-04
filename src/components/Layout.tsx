@@ -4,7 +4,7 @@
  */
 
 import { Link, useLocation } from 'react-router-dom'
-import { ReactNode } from 'react'
+import { type ReactNode } from 'react'
 
 interface LayoutProps {
   children: ReactNode
@@ -23,7 +23,7 @@ const Layout = ({ children }: LayoutProps) => {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-gray-50">
       <nav className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between">
@@ -56,11 +56,11 @@ const Layout = ({ children }: LayoutProps) => {
         </div>
       </nav>
 
-      <main className="flex-1 max-w-7xl mx-auto py-6 px-4 w-full">
+      <main className="max-w-7xl mx-auto py-6 px-4">
         {children}
       </main>
 
-      <footer className="bg-gray-100 border-t border-gray-200">
+      <footer className="bg-gray-100 border-t border-gray-200 mt-auto">
         <div className="max-w-7xl mx-auto py-4 px-4">
           <div className="text-center text-sm text-gray-600">
             <p>
