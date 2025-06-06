@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useId} from 'react'
+import {useState, useEffect} from 'react'
 
 /**
  * Gradient Generator App Challenge
