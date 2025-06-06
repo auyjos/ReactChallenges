@@ -13,6 +13,7 @@ import CalculatorApp from './pages/challenges/CalculatorApp'
 import ConnectFourApp from './pages/challenges/ConnectFourApp'
 import DiceApp from './pages/challenges/DiceApp'
 import ExpenseApp from './pages/challenges/ExpenseApp'
+import GradientApp from './pages/challenges/GradientApp'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/connect-four" element={<ConnectFourApp />} />
           <Route path="/dice-app" element={<DiceApp />} />
           <Route path="/expense" element={<ExpenseApp />} />
+          <Route path="/gradient" element={<GradientApp />} />
         </Routes>
       </Layout>
     </Router>

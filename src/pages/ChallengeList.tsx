@@ -37,6 +37,15 @@ const ChallengeList = () => {
       difficulty: 'Easy',
       concepts: ['Forms', 'Local storage', 'Local Storage', 'Arithmethic'],
       estimatedTime: '1 hour'
+    },
+    {
+      id: 5,
+      title: 'Gradient',
+      description: 'Gradient creator',
+      path: '/gradient',
+      difficulty: 'Easy',
+      concepts: ['JSX', 'Local storage', 'Hex Values', 'Input Events'],
+      estimatedTime: '1 hour'
     }
   ]
 
